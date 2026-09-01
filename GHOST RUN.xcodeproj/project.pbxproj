@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20000000000000000000008 = {isa = PBXBuildFile; fileRef = F20000000000000000000008; };
+		D20000000000000000000007 = {isa = PBXBuildFile; fileRef = F20000000000000000000007; };
+		D20000000000000000000006 = {isa = PBXBuildFile; fileRef = F20000000000000000000006; };
+		D20000000000000000000005 = {isa = PBXBuildFile; fileRef = F20000000000000000000005; };
+		D20000000000000000000001 = {isa = PBXBuildFile; fileRef = F20000000000000000000001; };
+		D20000000000000000000002 = {isa = PBXBuildFile; fileRef = F20000000000000000000002; };
+		D20000000000000000000003 = {isa = PBXBuildFile; fileRef = F20000000000000000000003; };
+		D20000000000000000000004 = {isa = PBXBuildFile; fileRef = F20000000000000000000004; };
+		D10000000000000000000001 /* GameEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001; };
+		D00000000000000000000001 /* GhostRunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* GhostRunApp.swift */; };
+		D00000000000000000000002 /* GameRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* GameRootView.swift */; };
+		D00000000000000000000003 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* GameEngine.swift */; };
+		D00000000000000000000004 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* GameModels.swift */; };
+		D00000000000000000000005 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* LocationService.swift */; };
+		D00000000000000000000006 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000006 /* HapticsService.swift */; };
+		D00000000000000000000007 /* GhostRunTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* GhostRunTheme.swift */; };
+		D00000000000000000000008 /* GeoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000008 /* GeoMath.swift */; };
+		D00000000000000000000009 /* BriefingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* BriefingView.swift */; };
+		D0000000000000000000000A /* LiveRunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000A /* LiveRunView.swift */; };
+		D0000000000000000000000B /* GameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000B /* GameComponents.swift */; };
+		D0000000000000000000000C /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000C /* SummaryView.swift */; };
+		D0000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000000F /* Assets.xcassets */; };
+		D0000000000000000000000E /* SupportViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000010 /* SupportViews.swift */; };
+		D0000000000000000000000F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000011 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleDataService.swift; sourceTree = "<group>"; };
+		F20000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleTests.swift; sourceTree = "<group>"; };
+		F20000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstaclePathPlanner.swift; sourceTree = "<group>"; };
+		F20000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleMap.swift; sourceTree = "<group>"; };
+		F20000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfiguration.swift; sourceTree = "<group>"; };
+		F20000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingPath.swift; sourceTree = "<group>"; };
+		F20000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostRoutingService.swift; sourceTree = "<group>"; };
+		F20000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GhostRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000000000000000000001 /* GhostRunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostRunApp.swift; sourceTree = "<group>"; };
+		F00000000000000000000002 /* GameRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRootView.swift; sourceTree = "<group>"; };
+		F00000000000000000000003 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		F00000000000000000000004 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		F00000000000000000000005 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		F00000000000000000000006 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		F00000000000000000000007 /* GhostRunTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostRunTheme.swift; sourceTree = "<group>"; };
+		F00000000000000000000008 /* GeoMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMath.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* BriefingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000A /* LiveRunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRunView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000B /* GameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameComponents.swift; sourceTree = "<group>"; };
+		F0000000000000000000000C /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		F0000000000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0000000000000000000000E /* GHOST RUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GHOST RUN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00000000000000000000010 /* SupportViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViews.swift; sourceTree = "<group>"; };
+		F00000000000000000000011 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10000000000000000000003 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B00000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C10000000000000000000001 = {isa = PBXGroup; children = (F10000000000000000000001, F20000000000000000000004, F20000000000000000000007,); path = GhostRunTests; sourceTree = "<group>"; };
+		C00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000002 /* GHOST RUN */,
+				C10000000000000000000001 /* GhostRunTests */,
+				C0000000000000000000000A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00000000000000000000002 /* GHOST RUN */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000003 /* App */,
+				C00000000000000000000004 /* Game */,
+				C00000000000000000000005 /* Models */,
+				C00000000000000000000006 /* Services */,
+				C00000000000000000000007 /* Style */,
+				C00000000000000000000008 /* Utilities */,
+				C00000000000000000000009 /* Views */,
+				C0000000000000000000000B /* Resources */,
+			);
+			path = "GHOST RUN";
+			sourceTree = "<group>";
+		};
+		C00000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000001 /* GhostRunApp.swift */,
+				F00000000000000000000002 /* GameRootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000004 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000003 /* GameEngine.swift */,
+				F20000000000000000000001 /* GameConfiguration.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000004 /* GameModels.swift */,
+				F20000000000000000000002 /* WalkingPath.swift */,
+				F20000000000000000000005,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000005 /* LocationService.swift */,
+				F20000000000000000000003 /* GhostRoutingService.swift */,
+				F20000000000000000000006,
+				F20000000000000000000008,
+				F00000000000000000000006 /* HapticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000007 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000007 /* GhostRunTheme.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000008 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000008 /* GeoMath.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000009 /* BriefingView.swift */,
+				F0000000000000000000000A /* LiveRunView.swift */,
+				F0000000000000000000000B /* GameComponents.swift */,
+				F0000000000000000000000C /* SummaryView.swift */,
+				F00000000000000000000010 /* SupportViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0000000000000000000000E /* GHOST RUN.app */,
+				F10000000000000000000002 /* GhostRunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0000000000000000000000B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0000000000000000000000D /* Info.plist */,
+				F0000000000000000000000F /* Assets.xcassets */,
+				F00000000000000000000011 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10000000000000000000001 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20000000000000000000003;
+			buildPhases = (B10000000000000000000002, B10000000000000000000003,);
+			buildRules = ();
+			dependencies = (B10000000000000000000005,);
+			name = GhostRunTests;
+			productName = GhostRunTests;
+			productReference = F10000000000000000000002;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B00000000000000000000001 /* GHOST RUN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00000000000000000000002 /* Build configuration list for PBXNativeTarget "GHOST RUN" */;
+			buildPhases = (
+				B00000000000000000000002 /* Sources */,
+				B00000000000000000000003 /* Frameworks */,
+				B00000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHOST RUN";
+			productName = "GHOST RUN";
+			productReference = F0000000000000000000000E /* GHOST RUN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					B00000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+						DevelopmentTeam = UX6LM8U38J;
+					};
+				};
+			};
+			buildConfigurationList = E00000000000000000000001 /* Build configuration list for PBXProject "GHOST RUN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				en,
+				Base,
+			);
+			mainGroup = C00000000000000000000001;
+			productRefGroup = C0000000000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00000000000000000000001 /* GHOST RUN */,
+				B10000000000000000000001 /* GhostRunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0000000000000000000000D /* Assets.xcassets in Resources */,
+				D0000000000000000000000F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10000000000000000000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (D10000000000000000000001, D20000000000000000000004, D20000000000000000000007,); runOnlyForDeploymentPostprocessing = 0; };
+		B00000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000000000000000000001 /* GhostRunApp.swift in Sources */,
+				D00000000000000000000002 /* GameRootView.swift in Sources */,
+				D00000000000000000000003 /* GameEngine.swift in Sources */,
+				D20000000000000000000001 /* GameConfiguration.swift in Sources */,
+				D20000000000000000000002 /* WalkingPath.swift in Sources */,
+				D20000000000000000000003 /* GhostRoutingService.swift in Sources */,
+				D20000000000000000000005,
+				D20000000000000000000006,
+				D20000000000000000000008,
+				D00000000000000000000004 /* GameModels.swift in Sources */,
+				D00000000000000000000005 /* LocationService.swift in Sources */,
+				D00000000000000000000006 /* HapticsService.swift in Sources */,
+				D00000000000000000000007 /* GhostRunTheme.swift in Sources */,
+				D00000000000000000000008 /* GeoMath.swift in Sources */,
+				D00000000000000000000009 /* BriefingView.swift in Sources */,
+				D0000000000000000000000A /* LiveRunView.swift in Sources */,
+				D0000000000000000000000B /* GameComponents.swift in Sources */,
+				D0000000000000000000000C /* SummaryView.swift in Sources */,
+				D0000000000000000000000E /* SupportViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E20000000000000000000001 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHOST RUN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GHOST RUN";
+				GENERATE_INFOPLIST_FILE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX6LM8U38J;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajaeyun.GhostRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks",);
+			};
+			name = Debug;
+		};
+		E20000000000000000000002 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHOST RUN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GHOST RUN";
+				GENERATE_INFOPLIST_FILE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX6LM8U38J;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajaeyun.GhostRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		};
+			name = Debug;
+		};
+		E10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+		};
+			name = Release;
+		};
+		E10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX6LM8U38J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "GHOST RUN/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajaeyun.GhostRun;
+				PRODUCT_MODULE_NAME = ZombieRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX6LM8U38J;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "GHOST RUN/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajaeyun.GhostRun;
+				PRODUCT_MODULE_NAME = ZombieRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (E20000000000000000000001, E20000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		E00000000000000000000001 /* Build configuration list for PBXProject "GHOST RUN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000001 /* Debug */,
+				E10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00000000000000000000002 /* Build configuration list for PBXNativeTarget "GHOST RUN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000003 /* Debug */,
+				E10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin PBXContainerItemProxy section */
+		B10000000000000000000006 = {isa = PBXContainerItemProxy; containerPortal = A00000000000000000000001; proxyType = 1; remoteGlobalIDString = B00000000000000000000001; remoteInfo = "GHOST RUN"; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		B10000000000000000000005 = {isa = PBXTargetDependency; target = B00000000000000000000001; targetProxy = B10000000000000000000006; };
+/* End PBXTargetDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
