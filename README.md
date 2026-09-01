@@ -4,6 +4,8 @@
 
 유령이 플레이어를 쫓아오고, 플레이어는 화면 속 캐릭터가 아니라 실제로 움직여 거리를 벌려야 합니다.
 
+![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay.png)
+
 ## 게임 컨셉
 
 - 실제 위치 이동이 게임 속 이동으로 반영됩니다.
