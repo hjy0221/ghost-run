@@ -29,3 +29,22 @@
 ## 안전 안내
 
 실제 야외에서 사용하는 게임이므로 주변 환경, 교통, 출입 제한 구역을 항상 우선해야 합니다. 화면을 보며 달리는 행동은 위험할 수 있으며, 안전한 장소에서만 플레이해야 합니다.
+
+---
+
+## English
+
+GHOST RUN is an iOS running-game prototype that turns real-world walking and running into gameplay. A ghost pursues the player, who must physically move to increase the distance.
+
+### Game concept
+
+- Real location changes are reflected in the game.
+- Ghosts appear nearby after the preparation period and move closer if the player stops or slows down too much.
+- Reaching supply points in the real world provides survival resources.
+- Survival time and distance traveled contribute to the score.
+
+The goal is to encourage a little more walking and running through the tension and rewards of a game. The prototype uses Swift, SwiftUI, MapKit, CoreLocation, and iOS 17 or later.
+
+### Safety
+
+When playing outdoors, prioritize your surroundings, traffic, and restricted areas. Looking at a screen while running can be dangerous; play only in safe locations.
