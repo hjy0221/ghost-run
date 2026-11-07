@@ -8,7 +8,7 @@
 
 幽霊がプレイヤーを追いかけ、プレイヤーは画面の中のキャラクターではなく実際に動いて距離を広げなければなりません。
 
-![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay.png)
+![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay-ja.png)
 
 ## ゲームコンセプト
 
@@ -40,7 +40,7 @@
 
 A ghost will chase the player, and the player must move to create distance between them by actually moving, rather than just a character on the screen.
 
-![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay.png)
+![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay-en.png)
 
 ## Game Concept
 
