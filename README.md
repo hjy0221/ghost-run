@@ -25,6 +25,8 @@ GHOST RUN は、現実の歩行やランニングをゲームプレイに変え�
 
 GHOST RUN is an iOS running-game prototype that turns real-world walking and running into gameplay. A ghost pursues the player, who must physically move to increase the distance.
 
+![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay.png)
+
 ### Game concept
 
 - Real location changes are reflected in the game.
