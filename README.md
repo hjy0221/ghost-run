@@ -4,41 +4,67 @@
 
 ## 日本語
 
-GHOST RUN は、現実の歩行やランニングをゲームプレイに変える iOS ランニングゲームのプロトタイプです。プレイヤーは実際に移動して追いかけてくるゴーストとの距離を広げます。
+**ゴーストラン**は、現実を歩き回る動きをゲームプレイに変えるiOSランニングゲームのプロトタイプです。
+
+幽霊がプレイヤーを追いかけ、プレイヤーは画面の中のキャラクターではなく実際に動いて距離を広げなければなりません。
 
 ![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay.png)
 
-### ゲームの内容
+## ゲームコンセプト
 
-- 現実の位置移動をゲームに反映します。
-- 準備時間後にゴーストが現れ、停止や減速で近づきます。
-- 現実の補給地点に到達すると生存に役立つ資源を得られます。
-- 生存時間と移動距離がスコアになります。
+- 実際の位置移動がゲーム内移動として反映されます。
+- 準備時間が終わると、周囲にゴーストが表示されます。
+- 停止または遅すぎると、ゴーストが近づきます。
+- 普及地まで実際に移動すると生存に役立つ資源を得ます。
+- 生存時間と移動距離がスコアとして記録されます。
 
-ゲームの緊張感と報酬を通じて、自然に歩いたり走ったりする体験を目指しています。Swift、SwiftUI、MapKit、CoreLocation、iOS 17 以降を使用します。
+## 目標
 
-### 安全について
+ゴーストランの目標は、運動を無理にするアプリではなく、ゲームの緊張感と報酬を通じて、ユーザーが自然にもう少し歩いて走る経験を作ることです。
 
-屋外では周囲の状況、交通、立入禁止区域を優先してください。画面を見ながら走ることは危険なため、安全な場所でプレイしてください。
+## 技術
+
+- Swift
+- SwiftUI
+- MapKit
+- CoreLocation
+- iOS 17+
+
+## 安全案内
+
+実際の屋外で使用するゲームなので、周辺環境、交通、出入り制限エリアを常に優先する必要があります。画面を見ながら走る行動は危険であり、安全な場所でのみプレイする必要があります。
 
 ## English
 
-GHOST RUN is an iOS running-game prototype that turns real-world walking and running into gameplay. A ghost pursues the player, who must physically move to increase the distance.
+**Ghost Run** is an iOS running game prototype that turns real-life walking and running movements into gameplay.
+
+A ghost will chase the player, and the player must move to create distance between them by actually moving, rather than just a character on the screen.
 
 ![GHOST RUN gameplay screenshot](Assets/ghost-run-gameplay.png)
 
-### Game concept
+## Game Concept
 
-- Real location changes are reflected in the game.
-- Ghosts appear nearby after the preparation period and move closer if the player stops or slows down too much.
-- Reaching supply points in the real world provides survival resources.
-- Survival time and distance traveled contribute to the score.
+- Actual location movement is reflected as movement in the game.
+- When the preparation time is over, a ghost will appear nearby.
+- If you stop or slow down too much, the ghost will get closer.
+- If you actually move to the supply point, you will get resources that will help you survive.
+- Survival time and travel distance are recorded as scores.
 
-The goal is to encourage a little more walking and running through the tension and rewards of a game. The prototype uses Swift, SwiftUI, MapKit, CoreLocation, and iOS 17 or later.
+## Goal
 
-### Safety
+The goal of Ghost Run is not to create an app that forces exercise, but to create an experience that naturally encourages users to walk and run a little more through the tension and rewards of the game.
 
-When playing outdoors, prioritize your surroundings, traffic, and restricted areas. Looking at a screen while running can be dangerous; play only in safe locations.
+## Technology
+
+-Swift
+-SwiftUI
+-MapKit
+-CoreLocation
+- iOS 17+
+
+## Safety Information
+
+Since this is a game played outdoors, surroundings, traffic, and restricted areas must always be prioritized. Running while looking at the screen can be dangerous and should only be played in safe locations.
 
 ## 한국어
 
