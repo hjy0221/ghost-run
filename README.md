@@ -4,8 +4,6 @@
 
 ## 日本語
 
-[日本語](https://github.com/hjy0221/ghost-run#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ghost-run#english) · [한국어](https://github.com/hjy0221/ghost-run#%ED%95%9C%EA%B5%AD%EC%96%B4)
-
 **ゴーストラン**は、現実を歩き回る動きをゲームプレイに変えるiOSランニングゲームのプロトタイプです。
 
 幽霊がプレイヤーを追いかけ、プレイヤーは画面の中のキャラクターではなく実際に動いて距離を広げなければなりません。
@@ -38,8 +36,6 @@
 
 ## English
 
-[日本語](https://github.com/hjy0221/ghost-run#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ghost-run#english) · [한국어](https://github.com/hjy0221/ghost-run#%ED%95%9C%EA%B5%AD%EC%96%B4)
-
 **Ghost Run** is an iOS running game prototype that turns real-life walking and running movements into gameplay.
 
 A ghost will chase the player, and the player must move to create distance between them by actually moving, rather than just a character on the screen.
@@ -71,8 +67,6 @@ The goal of Ghost Run is not to create an app that forces exercise, but to creat
 Since this is a game played outdoors, surroundings, traffic, and restricted areas must always be prioritized. Running while looking at the screen can be dangerous and should only be played in safe locations.
 
 ## 한국어
-
-[日本語](https://github.com/hjy0221/ghost-run#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/ghost-run#english) · [한국어](https://github.com/hjy0221/ghost-run#%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 **고스트 런**은 현실에서 걷고 뛰는 움직임을 게임 플레이로 바꾸는 iOS 러닝 게임 프로토타입입니다.
 
